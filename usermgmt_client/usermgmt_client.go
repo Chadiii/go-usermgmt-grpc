@@ -45,6 +45,5 @@ ID: %d`, r.GetName(), r.GetAge(), r.GetId())
 		log.Fatalf("could not retrieve users: %v", err)
 	}
 	log.Println("\nUser LIST:")
-	fmt.Printf("r.GetUsers(): %v\n", r.GetUsers())
-
+	fmt.Printf("%v\n", r.GetUsers())
 }
